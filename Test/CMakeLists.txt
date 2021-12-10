@@ -1,0 +1,1 @@
+message(DEBUG "In SL Test directory")
