@@ -6,6 +6,8 @@ set(CMAKE_C_STANDARD 11)
 
 set(CMAKE_C_FLAGS "-Wall -Werror -pedantic")
 
+include(CTest)
+
 add_subdirectory(Lib/Unity)
 add_subdirectory(SL)
 add_subdirectory(Test)
