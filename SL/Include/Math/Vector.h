@@ -16,6 +16,6 @@ typedef struct
     f32 z;
 } Vec3f;
 
-f32 Vec2FLength(const float x, const float y);
+f32 v2fLength(const float x, const float y);
 
-#endif //VECTOR_H
+#endif
