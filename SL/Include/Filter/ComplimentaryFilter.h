@@ -10,8 +10,8 @@ typedef struct ComplimentaryFilter
 {
     f32 alpha;
     f32 delta;
-    Vec2f previousAngle;
-    Vec2f currentAngle;
+    V2f previousAngle;
+    V2f currentAngle;
 } ComplimentaryFilterF32;
 
 void ComplimentaryFilterInitialize(ComplimentaryFilterF32* filter, const f32 alpha, const f32 delta);
@@ -19,4 +19,4 @@ void ComplimentaryFilterUpdate(ComplimentaryFilterF32* filter,
                                const f32 ax, const f32 ay, const f32 az,
                                const f32 gx, const f32 gy);
 
-#endif //COMPLIMENTARYFILTER_H
+#endif
