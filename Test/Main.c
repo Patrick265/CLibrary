@@ -17,6 +17,6 @@ int main(int argc, char** argv)
 {
     UNITY_BEGIN();
     RUN_TEST(testVec2fLength);
-    RUN_TEST(testGenerator);
+    testGenerator();
     return UNITY_END();
 }

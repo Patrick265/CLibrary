@@ -3,6 +3,8 @@
 
 #include "Definitions/Types.h"
 
+const u32 GeneratorCalculateFillLimit(u32 len, u32 end, u32 step);
+const u32 GeneratorCalculateStepSize(u32 index, u32 step, u32 start);
 /**
  * @brief Fills an array based on specifc limit/step
  * it will start from zero and increment until the limit or 
@@ -12,7 +14,7 @@
  * @param end The end of the steps you want to fill
  * @param step The step size that you want it to increment everytime
  */
-void GeneratorFillArrayu32(u32* array, u32 len, u32 end, u32 step);
+void GeneratorFillArrayu32(u32* arr, u32 len, u32 end, u32 step);
 
 /**
  * @brief Fills an array based on specifc limit/step
@@ -24,6 +26,6 @@ void GeneratorFillArrayu32(u32* array, u32 len, u32 end, u32 step);
  * @param end The end of the steps you want to fill
  * @param step The step size that you want it to increment everytime
  */
-void GeneratorFillArrayWithStartu32(u32* array, u32 len, u32 start, u32 end, u32 step);
+void GeneratorFillArrayWithStartu32(u32* arr, u32 len, u32 start, u32 end, u32 step);
 
 #endif
