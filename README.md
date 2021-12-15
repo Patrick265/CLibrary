@@ -1,2 +1,2 @@
-# Standard-Library
+# CLibrary
 Library for useful components written in C
