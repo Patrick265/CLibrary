@@ -3,7 +3,25 @@
 
 #include "Definitions/Types.h"
 
+/**
+ * @brief Calculates the limit, for how far an array should be filled.
+ * If the amount of steps is shorter then the length of the array, 
+ * it will not keep on filling the array 
+ * @param len Lenght of the array
+ * @param end Value to stop at
+ * @param step Step size
+ * @return the limit
+ */
+
 const u32 GeneratorCalculateFillLimit(u32 len, u32 end, u32 step);
+/**
+ * @brief Calculates the step size increment based on 
+ * index,step and start parameters
+ * @param index This is the multiplier in most cases
+ * @param step How big of a increment should the next value be 
+ * @param start From which value to start from
+ * @return the step size
+ */
 const u32 GeneratorCalculateStepSize(u32 index, u32 step, u32 start);
 /**
  * @brief Fills an array based on specifc limit/step
