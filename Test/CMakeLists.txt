@@ -3,7 +3,8 @@ message(DEBUG "In SL Test directory")
 add_executable(SLTest Main.c
                     "Source/Math/TestVector.c"
                     "Source/Data/TestLinkedList.c"
-                    "Source/Numeric/TestGenerator.c")
+                    "Source/Numeric/TestGenerator.c"
+                    "Source/Numeric/TestBits.c")
 
 
 
