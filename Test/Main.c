@@ -3,6 +3,7 @@
 #include "Math/TestVector.h"
 #include "Numeric/TestGenerator.h"
 #include "Numeric/TestBits.h"
+#include "Numeric/TestConversion.h"
 
 void setUp()
 {
@@ -20,5 +21,6 @@ int main(int argc, char** argv)
     RUN_TEST(testVec2fLength);
     testGenerator();
     testBits();
+    testConversion();
     return UNITY_END();
 }

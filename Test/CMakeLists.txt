@@ -4,7 +4,8 @@ add_executable(SLTest Main.c
                     "Source/Math/TestVector.c"
                     "Source/Data/TestLinkedList.c"
                     "Source/Numeric/TestGenerator.c"
-                    "Source/Numeric/TestBits.c")
+                    "Source/Numeric/TestBits.c"
+                    "Source/Numeric/TestConversion.c")
 
 
 
