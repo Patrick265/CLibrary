@@ -6,7 +6,8 @@ set(SOURCE	"${CMAKE_CURRENT_SOURCE_DIR}/Source/Filter/ComplimentaryFilter.c"
 			"${CMAKE_CURRENT_SOURCE_DIR}/Source/Data/LinkedList.c"
 			"${CMAKE_CURRENT_SOURCE_DIR}/Source/Numeric/Generator.c"
 			"${CMAKE_CURRENT_SOURCE_DIR}/Source/Numeric/Conversion.c"
-			"${CMAKE_CURRENT_SOURCE_DIR}/Source/Numeric/Bits.c")
+			"${CMAKE_CURRENT_SOURCE_DIR}/Source/Numeric/Bits.c"
+			"${CMAKE_CURRENT_SOURCE_DIR}/Source/Numeric/Decimal.c")
 
 add_library(SL "${SOURCE}")
 
