@@ -15,7 +15,7 @@ void tearDown()
 
 }
 
-int main(int argc, char** argv)
+int main()
 {
     UNITY_BEGIN();
     RUN_TEST(testVec2fLength);

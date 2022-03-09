@@ -13,7 +13,7 @@
  * @return the limit
  */
 
-const u32 GeneratorCalculateFillLimit(u32 len, u32 end, u32 step);
+u32 GeneratorCalculateFillLimit(u32 len, u32 end, u32 step);
 /**
  * @brief Calculates the step size increment based on 
  * index,step and start parameters
@@ -22,7 +22,7 @@ const u32 GeneratorCalculateFillLimit(u32 len, u32 end, u32 step);
  * @param start From which value to start from
  * @return the step size
  */
-const u32 GeneratorCalculateStepSize(u32 index, u32 step, u32 start);
+u32 GeneratorCalculateStepSize(u32 index, u32 step, u32 start);
 /**
  * @brief Fills an array based on specifc limit/step
  * it will start from zero and increment until the limit or 

@@ -1,6 +1,6 @@
 #include "Numeric/Generator.h"
 
-const u32 GeneratorCalculateFillLimit(u32 len, u32 end, u32 step)
+u32 GeneratorCalculateFillLimit(u32 len, u32 end, u32 step)
 {
     if((end / step) > len)
     {
@@ -12,7 +12,7 @@ const u32 GeneratorCalculateFillLimit(u32 len, u32 end, u32 step)
     }
 }
 
-const u32 GeneratorCalculateStepSize(u32 index, u32 step, u32 start)
+u32 GeneratorCalculateStepSize(u32 index, u32 step, u32 start)
 {
     return start + (index * step);
 }

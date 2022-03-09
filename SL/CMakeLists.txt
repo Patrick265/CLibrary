@@ -1,9 +1,9 @@
 message(DEBUG "In SL directory")
 
 set(HEADERS "${CMAKE_CURRENT_SOURCE_DIR}/Include/")
-set(SOURCE	"${CMAKE_CURRENT_SOURCE_DIR}/Source/Filter/ComplimentaryFilter.c"
+set(SOURCE	"${CMAKE_CURRENT_SOURCE_DIR}/Source/Container/BinaryTree.c"
+			"${CMAKE_CURRENT_SOURCE_DIR}/Source/Filter/ComplimentaryFilter.c"
 			"${CMAKE_CURRENT_SOURCE_DIR}/Source/Math/Vector.c"
-			"${CMAKE_CURRENT_SOURCE_DIR}/Source/Data/LinkedList.c"
 			"${CMAKE_CURRENT_SOURCE_DIR}/Source/Numeric/Generator.c"
 			"${CMAKE_CURRENT_SOURCE_DIR}/Source/Numeric/Conversion.c"
 			"${CMAKE_CURRENT_SOURCE_DIR}/Source/Numeric/Bits.c"

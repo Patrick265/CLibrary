@@ -4,7 +4,7 @@ project(Standard-Library C)
 
 set(CMAKE_C_STANDARD 11)
 
-set(CMAKE_C_FLAGS "-Wall -Werror -pedantic")
+set(CMAKE_C_FLAGS "-Wall -Wextra -Werror -pedantic")
 
 include(CTest)
 
