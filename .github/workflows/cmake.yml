@@ -25,8 +25,8 @@ jobs:
       # Build your program with the given configuration
       run: cmake --build ${{github.workspace}}/Build/ --config ${{env.BUILD_TYPE}}
       
-    - name: Clang
-      run: python3 clang-tidy.py -p Build/
+#     - name: Clang
+#       run: python3 clang-tidy.py -p Build/
       
     - name: Test
       working-directory: ${{github.workspace}}/Build/
