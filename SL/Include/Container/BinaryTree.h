@@ -24,4 +24,5 @@ typedef struct BinaryTree
 TreeStatusCode BinaryTreeCreate(BinaryTree* tree);
 TreeStatusCode BinaryTreeAppend(BinaryTree* tree, i32 key, void* content);
 TreeStatusCode BinaryTreeShowContent(BinaryTree* tree);
+
 #endif
