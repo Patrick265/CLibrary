@@ -1,5 +1,5 @@
-#ifndef TREE_STATUS_CODES_H_
-#define TREE_STATUS_CODES_H_
+#ifndef CL_TREE_STATUS_CODES_H_
+#define CL_TREE_STATUS_CODES_H_
 
 typedef enum TreeStatusCode 
 {

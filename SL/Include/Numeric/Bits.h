@@ -1,5 +1,5 @@
-#ifndef BITS_H_
-#define BITS_H_
+#ifndef CL_BITS_H_
+#define CL_BITS_H_
 
 #include "Definitions/Types.h"
 

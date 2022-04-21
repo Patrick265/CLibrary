@@ -7,7 +7,8 @@ set(SOURCE	"${CMAKE_CURRENT_SOURCE_DIR}/Source/Container/BinaryTree.c"
 			"${CMAKE_CURRENT_SOURCE_DIR}/Source/Numeric/Generator.c"
 			"${CMAKE_CURRENT_SOURCE_DIR}/Source/Numeric/Conversion.c"
 			"${CMAKE_CURRENT_SOURCE_DIR}/Source/Numeric/Bits.c"
-			"${CMAKE_CURRENT_SOURCE_DIR}/Source/Numeric/Decimal.c")
+			"${CMAKE_CURRENT_SOURCE_DIR}/Source/Numeric/Decimal.c"
+			"${CMAKE_CURRENT_SOURCE_DIR}/Source/String/String.c")
 
 add_library(SL "${SOURCE}")
 

@@ -1,5 +1,5 @@
-#ifndef GENERATOR_H_
-#define GENERATOR_H_
+#ifndef CL_GENERATOR_H_
+#define CL_GENERATOR_H_
 
 #include "Definitions/Types.h"
 

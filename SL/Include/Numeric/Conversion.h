@@ -1,5 +1,5 @@
-#ifndef CONVERSIONS_H_
-#define CONVERSIONS_H_
+#ifndef CL_CONVERSIONS_H_
+#define CL_CONVERSIONS_H_
 
 #include "Definitions/Types.h"
 

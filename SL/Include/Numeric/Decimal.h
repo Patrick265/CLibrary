@@ -1,5 +1,5 @@
-#ifndef DECIMAL_H_
-#define DECIMAL_H_
+#ifndef CL_DECIMAL_H_
+#define CL_DECIMAL_H_
 
 #include "Definitions/Types.h"
 #include "stdbool.h"

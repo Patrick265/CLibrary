@@ -1,5 +1,5 @@
-#ifndef VECTOR_H
-#define VECTOR_H
+#ifndef CL_VECTOR_H
+#define CL_VECTOR_H
 
 #include "Definitions/Types.h"
 
